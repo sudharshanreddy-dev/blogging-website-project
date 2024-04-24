@@ -1,0 +1,29 @@
+.cap1{
+    position: absolute;
+ bottom: 30%;
+right: 60%;
+z-index: 20;
+color: black;
+
+  }
+    .cap2{
+    position: absolute;
+ bottom: 20%;
+right: 15%;
+z-index: 20;
+
+
+
+  }
+  .cap2 h1,.cap2 p{
+    color: #fff;
+  }
+
+  .card-body p{
+    font-size: 20px;
+  }
+
+  .card-title>a{
+    color: #000;
+    text-decoration: none;
+  }
