@@ -1,0 +1,92 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="gap: 50px;">
+     <a href="/" style="text-decoration: none;">
+     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="50px" height="50px" viewBox="0 0 80.3 80.3" style="enable-background:new 0 0 80.3 80.3" xml:space="preserve">
+        <style>.st13{fill:#332319}.st17{fill:#628185}</style>
+        <circle cx="40.2" cy="40.2" r="40.2" style="fill:#0c2c48"/>
+        <path style="fill:#fff" d="M15.9 19.4h48.5v41.5H15.9z"/>
+        <path style="fill:#edab7e" d="m60.3 30.1-2.2-6.9-2.2 6.9z"/>
+        <path class="st13" d="m59 25.9-.9-2.7-.8 2.7z"/>
+        <path d="M59.6 29.4c-.4 0-.6.4-.7.8h-.1c0-.5-.3-.8-.7-.8-.4 0-.6.4-.7.8h-.1c0-.5-.3-.8-.7-.8-.4 0-.6.4-.7.8v25.3c0 .4.3.8.6.8h3.2c.3 0 .6-.3.6-.8V30.2c-.1-.5-.4-.8-.7-.8z" style="fill:#e07e45"/>
+        <path d="M59.7 56.2c.3 0 .6-.3.6-.8v-2.5H56v2.5c0 .4.3.8.6.8" style="fill:#ff8f8f"/>
+        <path style="fill:#a6d1d9" d="M55.8 47.6h4.6v5.9h-4.6z"/>
+        <path class="st17" d="M55.8 52h4.6v.4h-4.6zM55.8 50.4h4.6v.4h-4.6zM55.8 48.8h4.6v.4h-4.6z"/>
+        <g><path class="st13" d="M34.7 47.2c-4.4 0-7.9-3.5-7.9-7.9s3.5-7.9 7.9-7.9 7.9 3.5 7.9 7.9-3.5 7.9-7.9 7.9zm0-14.8c-3.8 0-6.9 3.1-6.9 6.9 0 3.8 3.1 6.9 6.9 6.9 3.8 0 6.9-3.1 6.9-6.9 0-3.8-3.1-6.9-6.9-6.9z"/></g>
+        <g><path class="st13" d="M49.9 55.1H35.5V40.7h14.4v14.4zm-13-1.4h11.6V42.1H36.9v11.6z"/></g>
+        <g><path class="st13" d="M45.6 50.1H21.1V25.6h24.5v24.5zm-22.5-2h20.5V27.6H23.1v20.5z"/></g>
+    </svg>  <span style="font-size: x-large; font-weight: 600; font-family:Sedan; color: #000;" id="brandName">StoryStream</span>
+</a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 50px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="/about" >AboutUs</a>
+          </li>
+          
+          
+
+          
+        </ul>
+
+
+        </div>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <form action="/editor" method="post">
+
+ <div class="container-fluid d-flex mt-4" style="height: 250px;">
+    <div class="container">
+        <div class="mb-3">
+          <label for="addtitle" class="form-label">Add Title</label>
+            <input type="text" class="form-control" id="addtitle" placeholder="Add Title" name="title" required></input>
+          </div>
+        <div class="mb-3">
+          <label for="addtags" class="form-label">Add Tags</label>
+            <input type="text" class="form-control" id="addtags" placeholder="Add Tags" name="tags" required></input>
+          </div>
+
+          <div>
+
+          </div>
+
+    </div>
+    
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="height: 100%; width: 100%; gap: 3px;">
+        <h3>Add banner</h3>
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <div id="banner" style="height: 150px; width: 300px; background-color: #628185;"></div>
+
+
+        <label for="banner-upload" class="btn btn-dark" style="border-radius: 10px;">Upload <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+            <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z"/>
+          </svg> </label>
+    </div>
+ </div>
+
+ <div class="container mt-3" style="border: 1px solid #628185;  height: 400px;">
+    <textarea type="text" class="article  h-100" placeholder="Start writing here..." name="content" required></textarea>
+ </div>
+
+ <div class="options d-flex justify-content-center align-items-center" style="padding-top: 10px; padding-bottom: 5px; gap: 10px;" >
+    <a href="/" class="btn btn-secondary">Cancel</a>
+    <button class="btn btn-dark">Publish</button>
+ </div>
+
+
+</form>
